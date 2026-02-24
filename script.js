@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("script.js loaded: attaching click listener to #name");
     el.addEventListener("click", function () {
         console.log("#name clicked");
-        this.style.setProperty("color", "blue", "important");
+        this.style.setProperty("color", "forestgreen", "important");
     });
 
     // Dark mode toggle
