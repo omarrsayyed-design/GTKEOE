@@ -85,3 +85,15 @@ body.dark-mode .page-footer {
   background-color: #222;
   border-top: 1px solid #444;
 }
+
+section {
+  background: #f0f0f0;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 70%;
+}
+
+body.dark-mode section {
+  background: #2a2a2a;
+}
